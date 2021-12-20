@@ -5,13 +5,18 @@ html(lang="ko")
         link(rel="stylesheet" href="https://unpkg.com/mvp.css")
     body
         header 
-            nav 
+            small Hello
+            nav
                 ul 
                     li 
                         a(href="/logout") logout
                     li 
                         a(href="/login") login
             h1=pageTitle
+            nav
+                ul 
+                    li 
+                        a(href="/videos/upload") Upload Video
         main
             block content
     include partials/footer
